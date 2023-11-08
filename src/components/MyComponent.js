@@ -16,6 +16,7 @@ class MyComponent extends Component{
 
     handlesubmit =(event) =>{
          event.preventDefault();                       // stop the browser from default behaviour of refreshing everytime(reloading)
+                                                            // abcd
         const value =this.state.value;   // onClick submit this will get updated value from state
     }
 

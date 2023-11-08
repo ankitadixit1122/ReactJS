@@ -15,4 +15,5 @@ export default MyClassComponent
 
 
 
+
 /* only one componnet is exported as default */
