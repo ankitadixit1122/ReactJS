@@ -2,19 +2,27 @@ import logo from './logo.svg';
 import './App.css';
 import MyComponent from './components/MyComponent';
 import MyClassComponent from './components/MyClassComponent';
+import Counter from './components/Counter';
+import CalculateSavingUsingClass from './components/CalculateSavingUsingClass';
+import CalculateSavings from './components/CalculateSavings';
+
 
 
 function App() {
   return (
     <div className="App">
-      <h1>This is the parent component</h1>
-      <MyClassComponent myCity ="Hartland"/>
-      <MyComponent/>
+      {/* <h1>This is the parent component</h1> */}
+      <CalculateSavingUsingClass/>
+      {/* <CalculateSavings/> */}
+
+      
     </div>
 
   );
 }
+
 export default App;
+
 
 
 

@@ -4,11 +4,18 @@ import './index.css';
 import MyApp from './App';
 import reportWebVitals from './reportWebVitals';
 import MyClassComponent from './components/MyClassComponent';
+import Counter from './components/Counter';
+import CalculateSavings from './components/CalculateSavings';
+import CalculateSavingUsingClass from './components/CalculateSavingUsingClass';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <MyApp/>
+    {/* <CalculateSavings/> */}
+    {/* <CalculateSavingUsingClass/> */}
     
     </React.StrictMode>
 );
