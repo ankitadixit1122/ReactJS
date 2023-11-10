@@ -5,18 +5,22 @@ import MyClassComponent from './components/MyClassComponent';
 import Counter from './components/Counter';
 import CalculateSavingUsingClass from './components/CalculateSavingUsingClass';
 import CalculateSavings from './components/CalculateSavings';
+import {useState} from "react";
+import Mycounter from './components/Mycounter';
+import MultiCheckboxes from './components/MultiCheckboxes';
 
 
 
 function App() {
-  return (
+    return(
     <div className="App">
-      {/* <h1>This is the parent component</h1> */}
-      <CalculateSavingUsingClass/>
-      {/* <CalculateSavings/> */}
 
-      
-    </div>
+      {/* <h1>This is the parent component</h1> */}
+      {/* <CalculateSavingUsingClass/> */}
+      {/* <CalculateSavings/> */}
+      <MultiCheckboxes/>
+    
+      </div>
 
   );
 }
