@@ -3,7 +3,7 @@ import React from 'react'
 function welcomePage() {
   return (
     <div>
-    <h1>Please enter your Details</h1>
+    <p>Please enter your Details username:ankita & pwd:12345</p>
     </div>
   )
 }
