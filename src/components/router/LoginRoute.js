@@ -82,14 +82,11 @@ function LoginRoute() {
 
         if(username == userDetails.username && password == userDetails.password){
             navigate('/Main');
-           
         }
         else{
             navigate('/Error');
         }
-
     }
-
     return (
         <div>
         <GlobalStyle />
